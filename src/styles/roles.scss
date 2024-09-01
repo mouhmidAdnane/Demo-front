@@ -1,0 +1,54 @@
+
+
+// .container {
+//     display: flex;
+//     justify-content: center;
+// }
+
+// .main-content {
+//     // margin-left: 20px; 
+//     padding: 16px;
+//     margin-top: 200px;
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     align-items: center;
+//     justify-content: left;
+//     gap: 10px;
+
+// }
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.main-content {
+    margin-left: 100px;  /* Adjust this to fit with Sidebar width */
+    padding: 16px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.role-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 8px;
+    // width: calc(33% - 20px);  /* Adjusts based on the gap */
+    min-width: 200px;
+    text-align: center;
+}
+
+.role-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}

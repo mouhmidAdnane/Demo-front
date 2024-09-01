@@ -1,0 +1,35 @@
+.sidebar{
+    height: 100vh;
+    border-right: solid 1px #e6e6e6;
+    width: 200px;
+    ul{
+        list-style: none;
+        li{
+            padding: 10px;
+            cursor: pointer;
+            text-align: center;
+            display: flex;
+            padding-left: 20px;
+            align-items: center;
+            gap: 10px;
+            &:hover{
+                background-color: #366fff;
+                a{
+                    color: #fff;
+                }
+                .icon{
+                    color: #fff;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            .icon{
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+}
